@@ -1,4 +1,7 @@
 #!/bin/sh
+
+
+#The NPI is updated around the 15th of the month and always holds last month's date in the format 'Feb_2011'. Its around 200 mb i think
 echo "wget http://nppes.viva-it.com/NPPES_Data_Dissemination_$(date -d '-1 month' +%b_%Y).zip"
 
 
