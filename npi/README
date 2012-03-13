@@ -1,0 +1,1 @@
+Basic scripts to grab current NPI Registry from the NPPES and puts it into a table. It also creates a simpler lookup table that combines organizations and individual providers.
