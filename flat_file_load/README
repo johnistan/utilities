@@ -1,0 +1,5 @@
+This is a simple bash script to take a directory of flat files and build simple table ddls and POSTGRESQL copy commands. I deal with lots of dictionary tables from outside sources(not all are nice enough to provide table definitions) that I need to load a quickly look at. 
+
+Script takes a path to where all the flat files with Headers as line 1.
+
+Will output two file. a drop sql file to delete the tables. and a create/copy file.
